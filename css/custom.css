@@ -7,3 +7,6 @@
         height: 100%;
     }
 }
+.couple-half .groom img, .couple-half .bride img{
+    object-fit: cover !important;
+}
