@@ -62,12 +62,12 @@ const CountDown=({date})=>{
                         <span className="simply-word">minutes</span>
                     </div>
                 </div>
-                <div className="simply-section simply-seconds-section">
+                {/* <div className="simply-section simply-seconds-section">
                     <div>
                         <span className="simply-amount">{seconds}</span>
                         <span className="simply-word">seconds</span>
                     </div>
-                </div>
+                </div> */}
             </div>);
       }
     };
