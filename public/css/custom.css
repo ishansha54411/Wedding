@@ -1,3 +1,10 @@
 .js .animate-box{
     opacity:0.9 !important;
 }
+@media (max-width: 768px)  {
+    .fh5co-cover{
+        background-attachment: fixed;
+        background-position: top;
+        background-position-x: 40%;
+    }
+}
