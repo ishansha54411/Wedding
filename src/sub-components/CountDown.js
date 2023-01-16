@@ -36,14 +36,21 @@ const CountDown=({date})=>{
         return <Completionist />;
       } else {
         // Render a countdown
+        let remainingMonths=getRemainingMonths(date);
         return (
             <div className="simply-countdown simply-countdown-one">
-                <div className="simply-section simply-days-section">
+                {remainingMonths>0?(<div className="simply-section simply-days-section">
                     <div>
-                        <span className="simply-amount">{getRemainingMonths(date)}</span>
+                        <span className="simply-amount">{remainingMonths}</span>
                         <span className="simply-word">months</span>
                     </div>
-                </div>
+                </div>):<></>}
+                {/* <div className="simply-section simply-days-section">
+                    <div>
+                        <span className="simply-amount">{remainingMonths}</span>
+                        <span className="simply-word">months</span>
+                    </div>
+                </div> */}
                 <div className="simply-section simply-days-section">
                     <div>
                         <span className="simply-amount">{getRemainingDays(date)}</span>
@@ -62,6 +69,12 @@ const CountDown=({date})=>{
                         <span className="simply-word">minutes</span>
                     </div>
                 </div>
+                {remainingMonths>0?<></>:<div className="simply-section simply-seconds-section">
+                    <div>
+                        <span className="simply-amount">{seconds}</span>
+                        <span className="simply-word">seconds</span>
+                    </div>
+                </div>}
                 {/* <div className="simply-section simply-seconds-section">
                     <div>
                         <span className="simply-amount">{seconds}</span>
