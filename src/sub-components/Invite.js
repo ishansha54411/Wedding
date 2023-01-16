@@ -1,5 +1,5 @@
 import React from "react";
-import ImageGroom from '../images/groom.jpg'
+import ImageGroom from '../images/groom_new.JPG'
 import ImageBride from '../images/bride.jpg'
 
 const Invite=({greetings,dateplace,msg,groom,bride})=>{
