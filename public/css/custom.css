@@ -3,6 +3,7 @@
 }
 @media (max-width: 768px)  {
     .fh5co-cover{
-        background-size:100% unset;
+        object-fit: cover;
+        height: 100%;
     }
 }
