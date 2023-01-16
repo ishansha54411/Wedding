@@ -20,7 +20,7 @@ const Jumbotron=({title,desc,date})=>{
 		</div>
 	</nav>
 
-	<header id="fh5co-header" className="fh5co-cover" role="banner" style={{backgroundImage:`url(${backgroundImage})`
+	<header id="fh5co-header" className="fh5co-cover" role="banner" style={{backgroundImage:`url(${backgroundImage})`,backgroundPosition:'top'
     }}>
 		<div className="overlay"></div>
 		<div className="container">
