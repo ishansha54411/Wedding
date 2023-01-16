@@ -11,7 +11,7 @@ const App=()=>{
     return (<div>
         <Jumbotron 
             title="Ishan & Urvashi" 
-            desc="We Are Getting Married!" 
+            desc="We Are Getting Married!!" 
             date={new Date("2023-05-11").setHours(0,0,0,0)}/>
         <Invite 
             greetings="Hello!" 
