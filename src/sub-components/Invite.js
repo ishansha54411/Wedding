@@ -1,6 +1,4 @@
 import React from "react";
-import ImageGroom from '../images/groom_new.JPG'
-import ImageBride from '../images/bride.jpg'
 
 const Invite=({greetings,dateplace,msg,groom,bride})=>{
     return (<div id="fh5co-couple">
@@ -15,7 +13,7 @@ const Invite=({greetings,dateplace,msg,groom,bride})=>{
         <div className="couple-wrap animate-box">
             <div className="couple-half">
                 <div className="groom">
-                    <img src={ImageGroom} alt="groom" className="img-responsive"/>
+                    <img src={groom.Image} alt="groom" className="img-responsive"/>
                 </div>
                 <div className="desc-groom">
                     <h3>{groom.Name}</h3>
@@ -25,7 +23,7 @@ const Invite=({greetings,dateplace,msg,groom,bride})=>{
             <p className="heart text-center"><i className="icon-heart2"></i></p>
             <div className="couple-half">
                 <div className="bride">
-                    <img src={ImageBride} alt="groom" className="img-responsive"/>
+                    <img src={bride.Image} alt="groom" className="img-responsive"/>
                 </div>
                 <div className="desc-bride">
                     <h3>{bride.Name}</h3>
