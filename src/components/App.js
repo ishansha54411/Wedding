@@ -1,8 +1,8 @@
 import React from "react";
-import Footer from "./Footer";
-import Invite from "./Invite";
-import Jumbotron from "./Jumbotron";
-import TimeLine from "./Timeline";
+import Footer from "./sub-components/Footer";
+import Invite from "./sub-components/Invite";
+import Jumbotron from "./sub-components/Jumbotron";
+import TimeLine from "./sub-components/Timeline";
 import FirstMeet from '../images/J51A2354.JPG'
 import FirstDate from '../images/FirstDate.jpeg'
 import Engagement from '../images/BG-Img.jpeg'
@@ -34,6 +34,7 @@ const App=()=>{
                     {image:SecondDate,title:'Second Date',date:'December 18, 2022',desc:''}
                 ]}/>
         <Footer/>
+        <div>Hi</div>
     </div>)
 }
 
