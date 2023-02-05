@@ -34,7 +34,6 @@ const App=()=>{
                     {image:SecondDate,title:'Second Date',date:'December 18, 2022',desc:''}
                 ]}/>
         <Footer/>
-        <div>Hi</div>
     </div>)
 }
 
