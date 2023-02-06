@@ -21,7 +21,7 @@ const App=()=>{
             greetings="Hello!" 
             dateplace="11 May, 2023 Una, Himachal Pradesh" 
             msg="We invited you to celebrate our wedding"
-            bride={{Name:'Urvashi Vashisht',Message:"",Image:BrideImage}}
+            bride={{Name:'Urvashi Vashisht',Message:"The very first time I met you, I knew that we were gonna have something special, and that special something will be timeless.",Image:BrideImage}}
             groom={{Name:'Ishan Sharma',Message:"All along, i thought i was lost, but now i know that was just the feeling of heart searching for you.",Image:GroomImage}}/>
         <TimeLine
             title="Our Story!"
