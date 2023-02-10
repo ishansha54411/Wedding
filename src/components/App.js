@@ -10,6 +10,7 @@ import SecondDate from '../images/3B1A82E4-1C9D-461D-94A1-B1BC1505CB42.jpeg'
 import MainBackgroundImage from '../images/BG-Img.jpeg'
 import GroomImage from '../images/groom_new.JPG'
 import BrideImage from '../images/bride.jpg'
+import ThirdDate from '../images/IMG_7522.jpg'
 const App=()=>{
     return (<div>
         <Jumbotron 
@@ -31,7 +32,9 @@ const App=()=>{
                     {image:FirstMeet,title:'First Meet',date:'September 28, 2022',desc:''},
                     {image:FirstDate,title:'First Date',date:'October 21, 2022',desc:''},
                     {image:Engagement,title:'Engagement',date:'December 11, 2022',desc:''},
-                    {image:SecondDate,title:'Second Date',date:'December 18, 2022',desc:''}
+                    {image:SecondDate,title:'Second Date',date:'December 18, 2022',desc:''},
+                    {image:ThirdDate,title:'Third Date',date:'January 29, 2023',desc:''}
+
                 ]}/>
         <Footer/>
     </div>)
