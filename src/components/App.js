@@ -9,7 +9,7 @@ import Engagement from '../images/BG-Img.jpeg'
 import SecondDate from '../images/3B1A82E4-1C9D-461D-94A1-B1BC1505CB42.jpeg'
 import MainBackgroundImage from '../images/BG-Img.jpeg'
 import GroomImage from '../images/groom_new.JPG'
-import BrideImage from '../images/bride.jpg'
+import BrideImage from '../images/J51A3005.JPG'
 import ThirdDate from '../images/ThirdDate.jpeg'
 const App=()=>{
     return (<div>
